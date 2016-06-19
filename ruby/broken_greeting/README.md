@@ -1,7 +1,7 @@
 # Kata
 Name: [Broken Greetings](https://www.codewars.com/kata/50654ddff44f800200000001)
 
-Difficulty: 8 Kyu
+Difficulty: **8 Kyu**
 
 # Description
 Correct this code, so that the greet function returns the expected value.

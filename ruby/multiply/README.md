@@ -1,7 +1,7 @@
 # Kata
-Name: Multiply
+Name: [Multiply](https://www.codewars.com/kata/50654ddff44f800200000004)
 
-Difficulty: 8 Kyu
+Difficulty: **8 Kyu**
 
 # Description
 The code does not execute properly. Try to figure out why.
