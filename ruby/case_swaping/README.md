@@ -1,5 +1,6 @@
 # Kata
-Name: Case swapping
+Name:       Case swapping
+
 Difficulty: 7 Kyu
 
 # Description
