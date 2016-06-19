@@ -8,3 +8,10 @@ Given a string, swap the case for each of the letters.
 
 # Example
 CodEwArs --> cODeWaRS
+
+# Scenario
+```ruby
+def swap(string)
+  #your code here
+end
+```
