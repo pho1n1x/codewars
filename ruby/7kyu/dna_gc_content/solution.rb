@@ -1,7 +1,7 @@
-def DNA_strand(dna)
+def gc_content(dna)
   
-  # Use String#tr to replace the characters from the first string
-  # with the corresponding characters of the second string
-  dna.tr('ATGC', 'TACG')
-  
+  # Check if the DNA string is empty and return 0 if it's the case.
+  # Otherwise compute and return the GC-content
+  dna.empty? ? 0 : dna.upcase.scan(/[CG]/).length.fdiv(dna.length) * 100
+
 end
