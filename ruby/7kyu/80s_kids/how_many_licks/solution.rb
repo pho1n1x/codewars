@@ -1,8 +1,11 @@
 def total_licks(env)
-  licks = 252
+  licks = env.empty? ? 252 : 252 + env.each_value.reduce(:+)
   message = "It took #{licks} licks to get to the tootsie roll center of a tootsie pop."
   
-  return message if env.empty?
-  puts env.keys
-  env.each_key { |key| puts "#{licks + env[key]}" }
+  if env.empty? || env.values.max <= 0
+    message
+  else
+    message << " The toughest challenge was #{env.key(env.values.max)}."
+  end
+  
 end
