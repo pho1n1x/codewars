@@ -1,5 +1,5 @@
 # Kata
-Name: [Extract the domain name from a URL](https://www.codewars.com/kata/extract-the-domain-name-from-a-url-1)
+Name: [Josephus Permutation](https://www.codewars.com/kata/josephus-permutation/)
 
 Difficulty: **5 Kyu**
 
