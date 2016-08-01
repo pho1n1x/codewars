@@ -1,4 +1,3 @@
-def sliding (nums, k)
-  return [] if nums.empty? || k < 0
-  nums.each_cons(k).map(&:max)
+def high_and_low(numbers)
+  "#{numbers.split(' ').map(&:to_i).max} #{numbers.split(' ').map(&:to_i).min}"
 end
